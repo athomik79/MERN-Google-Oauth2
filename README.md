@@ -18,7 +18,7 @@ cd project-3
 npm install
 
 cd client & npm install
-```
+
 
 ### 2. Obtain OAuth 2.0 credentials from the Google API Console. (You will need these credentials for the app to run. If you do not want to set them up, just let me knwo and I'll send you the .env files and let you know where to put them SEE STEP 4-5)
 
@@ -30,6 +30,7 @@ And you should store the client secret in the node app.
 ### 3. Add Authorized JavaScript Origins
 
 Go to [Google API Console](https://console.developers.google.com/). And select your project & then add JavaScript Origins Url
+
 ![Capture](https://user-images.githubusercontent.com/29760858/65677289-c3582600-e06a-11e9-8a69-564a89dbe522.PNG)
 
 **This is a url of client side react app**
@@ -41,10 +42,9 @@ Go to [Google API Console](https://console.developers.google.com/). And select y
 
 1. execute these commands
 
-```
+
 cd client
 touch .env.local
-```
 
 2. open `.env.local` file & enter
    `REACT_APP_GOOGLE_CLIENT_ID=your client id provided by google`
@@ -53,13 +53,11 @@ touch .env.local
 
 From the root directory of the project, type:
 
-```bash
 mkdir config
 
 cd config
 
 touch dev.env
-```
 
 **Note: These commands are for Mac/Linux users only. Windows users should type these commands in git bash**
 
@@ -67,9 +65,7 @@ Now open the dev.env file and add `GOOGLE_CLIENT_ID=value from google apis`, `GO
 
 ### 6. Run 'dev' script
 
-```bash
 npm run dev
-```
 
 ### More information
 
