@@ -13,7 +13,7 @@ Google Docs Sign-In for server side apps [google docs](https://developers.google
 ### 1. Clone the repository & install dependencies
 #### Make sure to run the npm install on the root directory as well as the client directory
 
-cd project-3
+cd MERN-Google-Oauth2
 
 npm install
 
